@@ -1,0 +1,83 @@
+﻿CREATE PROCEDURE [dbo].[Appliances_GetAll]
+AS
+BEGIN
+	SELECT
+		a.[Id],
+		a.[Model],
+        a.[Company],
+		a.[Country],
+		a.[ProductionYear],
+	    a.[Price],
+		a.[Width],
+		a.[Height],
+		a.[Depth],
+		a.[Weight],
+		a.[Color],
+		a.[Power],		
+		a.[TypeOfInstallation],
+		a.[EnergyClass],
+		a.[Volume],	
+		a.[NumberOfPrograms],
+		a.[Grill],
+		a.[Convection],
+		a.[BatteryLife],	
+		a.[ControlType],
+		a.[Nozzle],
+		a.[BodyMaterial],
+		a.[WetCleaning],
+		a.[DustContainerSize],
+		a.[DustContainerType],
+		a.[NoiseLevel],
+		a.[Drying],
+		a.[Freezer],
+		a.[DefrostingCameras],
+		a.[NumberOfChambers],
+		a.[Switches],
+		a.[InnerCoating],
+		a.[DelayedStart],	
+		a.[BowlCover],
+		a.[KeepingWarm],
+		a.[SuctionPipe],
+		a.[TypeOfSensors],
+		a.[RemoteStart],
+		a.[BuildingRoomMap],
+		a.[Capacity],
+		a.[FloorIndication],
+		a.[IntensiveWash],
+		a.[OperatingMode],	
+		a.[Filter],
+		a.[TypeOfLighting],
+		a.[MaximumSpinSpeed],	
+		a.[WaterTankVolume],
+		a.[ScaleProtection],
+		a.[MaximumRoomArea],
+		a.[MultiSplitSystem],
+		a.[MotionDetector],
+		a.[MicrowaveFunction],
+		a.[MaximumTemperature],
+		a.[TypeOfCoffeeUsed],
+		a.[PumpPressure],
+		a.[IntegratedCoffeeGrinder],
+		a.[HeatingElementType],
+		a.[WhiskForBeating],
+		a.[Chopper],
+		a.[TravelBottle],
+		a.[Juicer],
+		a.[Ionization],
+		a.[FoldingHandle],
+		a.[UserAge],
+		a.[NumberOfPulsations],
+		a.[WeightLimit],
+		a.[MeasurementAccuracy],
+		a.[NumberOfBurners],
+		a.[PanelMaterial]
+	FROM dbo.Appliances a
+	WHERE IsDeleted = 0
+	ORDER BY [Model] 
+END;
+		         
+
+
+
+
+

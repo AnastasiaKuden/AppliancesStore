@@ -1,0 +1,86 @@
+22.08.2020 23:44:27	This log contains information about the import schema operation into project 'AppliancesStore.Database' on computer 'DESKTOP-7IVKO48' by user 'hp'.
+22.08.2020 23:44:27	Import of database schema has started.
+22.08.2020 23:44:40	Gathering database credentials
+22.08.2020 23:44:40	Gathering database options
+22.08.2020 23:44:40	Gathering generic database scoped configuration option
+22.08.2020 23:44:40	Gathering users
+22.08.2020 23:44:40	Gathering roles
+22.08.2020 23:44:40	Gathering application roles
+22.08.2020 23:44:40	Gathering role memberships
+22.08.2020 23:44:40	Gathering filegroups
+22.08.2020 23:44:40	Gathering full-text catalogs
+22.08.2020 23:44:40	Gathering assemblies
+22.08.2020 23:44:41	Gathering certificates
+22.08.2020 23:44:41	Gathering asymmetric keys
+22.08.2020 23:44:41	Gathering symmetric keys
+22.08.2020 23:44:41	Gathering encrypted symmetric keys
+22.08.2020 23:44:41	Gathering schemas
+22.08.2020 23:44:41	Gathering XML schema collections
+22.08.2020 23:44:41	Gathering user-defined data types
+22.08.2020 23:44:41	Gathering user-defined types
+22.08.2020 23:44:41	Gathering table types
+22.08.2020 23:44:41	Gathering unique keys for table types
+22.08.2020 23:44:41	Gathering primary keys for table types
+22.08.2020 23:44:41	Gathering indexes for table types
+22.08.2020 23:44:41	Gathering check constraints for table types
+22.08.2020 23:44:41	Gathering default constraints for table types
+22.08.2020 23:44:41	Gathering partition functions
+22.08.2020 23:44:41	Gathering partition schemes
+22.08.2020 23:44:41	Gathering functions
+22.08.2020 23:44:41	Gathering encrypted functions
+22.08.2020 23:44:41	Gathering aggregates
+22.08.2020 23:44:41	Gathering procedures
+22.08.2020 23:44:41	Gathering encrypted procedures
+22.08.2020 23:44:42	Gathering tables
+22.08.2020 23:44:42	Gathering primary keys
+22.08.2020 23:44:42	Gathering unique constraints
+22.08.2020 23:44:42	Gathering foreign keys
+22.08.2020 23:44:42	Gathering default constraints
+22.08.2020 23:44:42	Gathering check constraints
+22.08.2020 23:44:42	Gathering views
+22.08.2020 23:44:42	Gathering encrypted views
+22.08.2020 23:44:42	Gathering indexes
+22.08.2020 23:44:42	Gathering statistics
+22.08.2020 23:44:42	Gathering full-text index stoplists
+22.08.2020 23:44:42	Gathering search property lists
+22.08.2020 23:44:42	Gathering search properties
+22.08.2020 23:44:42	Gathering full-text indexes
+22.08.2020 23:44:42	Gathering column store indexes
+22.08.2020 23:44:42	Gathering spatial indexes
+22.08.2020 23:44:42	Gathering XML indexes
+22.08.2020 23:44:42	Gathering Selective XML indexes
+22.08.2020 23:44:42	Gathering encrypted triggers
+22.08.2020 23:44:42	Gathering triggers
+22.08.2020 23:44:42	Gathering encrypted and clr ddl triggers
+22.08.2020 23:44:42	Gathering ddl triggers
+22.08.2020 23:44:42	Creating edge constraints
+22.08.2020 23:44:42	Gathering synonyms
+22.08.2020 23:44:42	Gathering defaults
+22.08.2020 23:44:42	Gathering data constraint uddt bindings
+22.08.2020 23:44:42	Gathering rules
+22.08.2020 23:44:42	Gathering data constraint uddt bindings
+22.08.2020 23:44:42	Gathering message types
+22.08.2020 23:44:42	Gathering queues
+22.08.2020 23:44:42	Gathering contracts
+22.08.2020 23:44:42	Gathering services
+22.08.2020 23:44:42	Gathering event notifications
+22.08.2020 23:44:42	Gathering remote service bindings
+22.08.2020 23:44:42	Gathering broker priorities
+22.08.2020 23:44:42	Gathering signatures
+22.08.2020 23:44:42	Gathering data compression options
+22.08.2020 23:44:42	Gathering sequence types
+22.08.2020 23:44:42	Gathering security policies
+22.08.2020 23:44:42	Gather column encryption keys
+22.08.2020 23:44:42	Gathering column master keys
+22.08.2020 23:44:42	Gathering external data sources
+22.08.2020 23:44:42	Gathering external file formats
+22.08.2020 23:44:42	Gathering external tables
+22.08.2020 23:44:42	Gathering extended properties
+22.08.2020 23:44:42	Gathering credentials
+22.08.2020 23:44:42	Gathering logins
+22.08.2020 23:44:42	Gathering server audits
+22.08.2020 23:44:44	Scanning project for duplicate elements
+22.08.2020 23:44:44	Finished duplicate element processing
+22.08.2020 23:44:45	Finished importing database.
+22.08.2020 23:44:45	A summary of the import was saved to the following location: D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Database\Import Schema Logs\AppliancesStore.Data_20200822084427.log
+22.08.2020 23:44:45	Click Finish to continue...
