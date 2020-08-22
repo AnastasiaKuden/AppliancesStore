@@ -1,5 +1,5 @@
-﻿using HouseholdAppliancesStore.API.Models.Input;
-using HouseholdAppliancesStore.Data;
+﻿using AppliancesStore.API.Models.Input;
+using AppliancesStore.Data;
 
 namespace AppliancesStore.API.Validators
 {

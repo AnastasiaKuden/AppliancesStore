@@ -1,6 +1,4 @@
-﻿using HouseholdAppliancesStore.API.Models.Output.CategorySpecificOutputModels.LargeAppliancesModels;
-
-namespace AppliancesStore.API.Models.Output.CategorySpecificOutputModels.LargeAppliancesModels
+﻿namespace AppliancesStore.API.Models.Output.CategorySpecificOutputModels.LargeAppliancesModels
 {
     public class OvensOutputModel : LargeAppliancesOutputModel
     {

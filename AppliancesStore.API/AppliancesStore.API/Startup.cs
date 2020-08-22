@@ -1,14 +1,12 @@
+using AppliancesStore.API.Configuration;
+using AppliancesStore.Core;
 using Autofac;
 using AutoMapper;
-using HouseholdAppliancesStore.API.Configuration;
-using HouseholdAppliancesStore.Core;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.OpenApi.Models;
-using System;
 
 namespace AppliancesStore.API
 {

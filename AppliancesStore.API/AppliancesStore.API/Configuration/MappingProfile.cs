@@ -1,9 +1,10 @@
-﻿using AutoMapper;
-using HouseholdAppliancesStore.API.Models.Input;
-using HouseholdAppliancesStore.API.Models.Output;
-using HouseholdAppliancesStore.API.Models.Output.CategorySpecificOutputModels;
-using HouseholdAppliancesStore.Core;
-using HouseholdAppliancesStore.Data.DTO;
+﻿using AppliancesStore.API.Models.Output.CategorySpecificOutputModels.SmallAppliancesModels;
+using AppliancesStore.API.Models.Output.CategorySpecificOutputModels.LargeAppliancesModels;
+using AutoMapper;
+using AppliancesStore.API.Models.Input;
+using AppliancesStore.API.Models.Output;
+using AppliancesStore.Core;
+using AppliancesStore.Data.DTO;
 using System;
 
 namespace AppliancesStore.API.Configuration

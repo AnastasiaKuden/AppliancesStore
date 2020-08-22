@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppliancesStore.Data", "App
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AppliancesStore.Database", "AppliancesStore.Database\AppliancesStore.Database.sqlproj", "{CBA23E3C-6C89-4EA2-A2BD-F45A6E902048}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppliancesStore.Test", "AppliancesStore.Test\AppliancesStore.Test.csproj", "{67D8E4A1-31BB-4B48-96DF-B3B924300122}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{CBA23E3C-6C89-4EA2-A2BD-F45A6E902048}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBA23E3C-6C89-4EA2-A2BD-F45A6E902048}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CBA23E3C-6C89-4EA2-A2BD-F45A6E902048}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{67D8E4A1-31BB-4B48-96DF-B3B924300122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D8E4A1-31BB-4B48-96DF-B3B924300122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D8E4A1-31BB-4B48-96DF-B3B924300122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D8E4A1-31BB-4B48-96DF-B3B924300122}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
