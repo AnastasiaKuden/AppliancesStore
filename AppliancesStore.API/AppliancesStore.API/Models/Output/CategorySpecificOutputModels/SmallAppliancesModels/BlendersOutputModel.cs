@@ -1,6 +1,4 @@
-﻿namespace HouseholdAppliancesStore.API.Models.Output.CategorySpecificOutputModels
-
-namespace AppliancesStore.API.Models.Output.CategorySpecificOutputModels.SmallAppliancesModels
+﻿namespace AppliancesStore.API.Models.Output.CategorySpecificOutputModels.SmallAppliancesModels
 {
     public class BlendersOutputModel : AppliancesShortcutOutputModel
     {

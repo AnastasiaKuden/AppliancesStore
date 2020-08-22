@@ -1,13 +1,13 @@
-﻿using HouseholdAppliancesStore.Core;
-using HouseholdAppliancesStore.Data.DTO;
-using Microsoft.Extensions.Options;
-using System.Data;
-using System.Data.SqlClient;
+﻿using System.Data;
 using Dapper;
 using System;
 using System.Linq;
 using System.Collections.Generic;
-using HouseholdAppliancesStore.Data.StorageProcedures;
+using Microsoft.Extensions.Options;
+using AppliancesStore.Core;
+using System.Data.SqlClient;
+using AppliancesStore.Data.DTO;
+using AppliancesStore.Data.StorageProcedures;
 
 namespace AppliancesStore.Data
 {

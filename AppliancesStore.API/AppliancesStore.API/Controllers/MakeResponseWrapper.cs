@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
+using AppliancesStore.API.Models.Output;
+using AppliancesStore.Data;
+using AppliancesStore.Data.DTO;
 using AutoMapper;
-using HouseholdAppliancesStore.API.Models.Output;
-using HouseholdAppliancesStore.Data;
-using HouseholdAppliancesStore.Data.DTO;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AppliancesStore.API.Controllers

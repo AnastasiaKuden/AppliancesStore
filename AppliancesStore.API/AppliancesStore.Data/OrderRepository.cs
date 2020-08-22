@@ -1,7 +1,7 @@
-﻿using Dapper;
-using HouseholdAppliancesStore.Core;
-using HouseholdAppliancesStore.Data.DTO;
-using HouseholdAppliancesStore.Data.StorageProcedures;
+﻿using AppliancesStore.Core;
+using AppliancesStore.Data.DTO;
+using AppliancesStore.Data.StorageProcedures;
+using Dapper;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;

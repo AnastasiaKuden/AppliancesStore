@@ -1,9 +1,9 @@
-﻿using AutoMapper;
-using HouseholdAppliancesStore.API.Models.Input;
-using HouseholdAppliancesStore.API.Models.Output;
-using HouseholdAppliancesStore.API.Validators;
-using HouseholdAppliancesStore.Data;
-using HouseholdAppliancesStore.Data.DTO;
+﻿using AppliancesStore.API.Models.Input;
+using AppliancesStore.API.Models.Output;
+using AppliancesStore.API.Validators;
+using AppliancesStore.Data;
+using AppliancesStore.Data.DTO;
+using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;

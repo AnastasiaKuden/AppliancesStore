@@ -1,9 +1,8 @@
-﻿using AutoMapper;
-using HouseholdAppliancesStore.API.Models.Output;
-using HouseholdAppliancesStore.API.Models.Output.CategorySpecificOutputModels;
-using HouseholdAppliancesStore.Core;
-using HouseholdAppliancesStore.Data.DTO;
-using Microsoft.Extensions.Hosting.Internal;
+﻿using AppliancesStore.API.Models.Output.CategorySpecificOutputModels.LargeAppliancesModels;
+using AppliancesStore.API.Models.Output.CategorySpecificOutputModels.SmallAppliancesModels;
+using AppliancesStore.Core;
+using AppliancesStore.Data.DTO;
+using AutoMapper;
 using System.Collections.Generic;
 
 namespace AppliancesStore.API

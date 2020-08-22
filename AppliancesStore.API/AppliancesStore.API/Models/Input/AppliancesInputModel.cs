@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace AppliancesStore.API.Models.Input
+﻿namespace AppliancesStore.API.Models.Input
 {
 	public class AppliancesInputModel
 	{

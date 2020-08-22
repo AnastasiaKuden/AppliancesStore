@@ -1,4 +1,4 @@
-﻿using HouseholdAppliancesStore.Data.DTO;
+﻿using AppliancesStore.Data.DTO;
 using System.Collections.Generic;
 
 namespace AppliancesStore.Data

@@ -1,5 +1,4 @@
-﻿using System;
-namespace AppliancesStore.Data
+﻿namespace AppliancesStore.Data
 {
     public class DataWrapper<T>
     {

@@ -1,5 +1,5 @@
-﻿using HouseholdAppliancesStore.Core;
-using HouseholdAppliancesStore.Data.DTO;
+﻿using AppliancesStore.Core;
+using AppliancesStore.Data.DTO;
 using System.Collections.Generic;
 
 namespace AppliancesStore.Data

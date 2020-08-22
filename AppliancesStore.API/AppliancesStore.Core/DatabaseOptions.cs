@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace AppliancesStore.Core
+﻿namespace AppliancesStore.Core
 {
     public class DatabaseOptions : IDatabaseOptions
     {

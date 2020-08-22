@@ -1,6 +1,6 @@
 ﻿using Autofac;
-using HouseholdAppliancesStore.Core;
-using HouseholdAppliancesStore.Data;
+using AppliancesStore.Core;
+using AppliancesStore.Data;
 
 namespace AppliancesStore.API.Configuration
 {
