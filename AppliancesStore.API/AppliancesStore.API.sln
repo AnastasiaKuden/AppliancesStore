@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppliancesStore.API", "Appl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppliancesStore.Core", "AppliancesStore.Core\AppliancesStore.Core.csproj", "{CF2D0AE6-C876-4FC7-BE78-1C489F45C8B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppliancesStore.Data", "AppliancesStore.Data\AppliancesStore.Data.csproj", "{68D2F96C-5D5F-4C28-82DB-69E3233A1330}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CF2D0AE6-C876-4FC7-BE78-1C489F45C8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF2D0AE6-C876-4FC7-BE78-1C489F45C8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF2D0AE6-C876-4FC7-BE78-1C489F45C8B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D2F96C-5D5F-4C28-82DB-69E3233A1330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D2F96C-5D5F-4C28-82DB-69E3233A1330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D2F96C-5D5F-4C28-82DB-69E3233A1330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D2F96C-5D5F-4C28-82DB-69E3233A1330}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
