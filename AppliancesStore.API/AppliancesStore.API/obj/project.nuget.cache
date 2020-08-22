@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3zahfWVqf7x9bS2RXhQK8IPdb3LI2fcS5dvhbYEChZRyp491/gynTOYjqQUhw0Qee+A7FIjinLSkHg6FExVl8Q==",
+  "success": true,
+  "projectFilePath": "D:\\C# проекты\\AppliancesStore\\AppliancesStore.API\\AppliancesStore.API\\AppliancesStore.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
