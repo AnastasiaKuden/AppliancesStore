@@ -1,0 +1,9 @@
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\bin\Debug\netcoreapp3.1\AppliancesStore.Core.deps.json
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\bin\Debug\netcoreapp3.1\AppliancesStore.Core.dll
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\bin\Debug\netcoreapp3.1\AppliancesStore.Core.pdb
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\obj\Debug\netcoreapp3.1\AppliancesStore.Core.csprojAssemblyReference.cache
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\obj\Debug\netcoreapp3.1\AppliancesStore.Core.AssemblyInfoInputs.cache
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\obj\Debug\netcoreapp3.1\AppliancesStore.Core.AssemblyInfo.cs
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\obj\Debug\netcoreapp3.1\AppliancesStore.Core.csproj.CoreCompileInputs.cache
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\obj\Debug\netcoreapp3.1\AppliancesStore.Core.dll
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\obj\Debug\netcoreapp3.1\AppliancesStore.Core.pdb
