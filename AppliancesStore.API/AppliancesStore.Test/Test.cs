@@ -1,5 +1,6 @@
 ﻿using AppliancesStore.API;
 using AppliancesStore.Core;
+using AppliancesStore.Test.Mocks.OutputDataMocks;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Hosting;
@@ -9,6 +10,7 @@ using NUnit.Framework;
 using System.Data;
 using System.Data.SqlClient;
 using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace AppliancesStore.Test
 {
@@ -38,18 +40,30 @@ namespace AppliancesStore.Test
             _connection = new SqlConnection(databaseOptions.Value.DBConnectionString);
         }
 
-        //[TestCase(1)]
-        //[TestCase(2)]
-        //[TestCase(3)]
-        //[TestCase(4)]
-        //[TestCase(5)]
-        //public async Task GetAllProductsTest()
-        //{
-        //    var response = await _client.GetStringAsync(_appliancesStoreUrl + EndpointUrl.appliancesUrl);
-        //    var actual = JsonConvert.DeserializeObject<AccountWithLeadOutputModel>(response);
-        //    var outputData = new OutputDataMocksForAccounts();
-        //    var expected = outputData.GetAccountWithLeadOutputModelMockById(num);
-        //    Assert.AreEqual(expected, actual);
-        //}
+        [TestCase(1)]
+        [TestCase(2)]
+        [TestCase(3)]
+        [TestCase(4)]
+        [TestCase(5)]
+        public async Task AddNewProductTest()
+        {
+            var outputData = new OutputDataMocksForAppliances();
+            var expected = outputData.GetAccountWithLeadOutputModelMockById(num);
+            var inputData = new InputDataMocksForAccounts();
+            var inputmodel = inputData.GetAccountInputModelMock(num);
+            var jsonContent = new StringContent(JsonConvert.SerializeObject(inputmodel), Encoding.UTF8, "application/json");
+            var response = await _client.PostAsync(_crmUrl + EndpointUrl.accountUrl, jsonContent);
+            var result = await response.Content.ReadAsStringAsync();
+            //задать переменную, при которой будет провальный результат = 23
+            if (num < 23)
+            {
+                var actual = JsonConvert.DeserializeObject<AccountWithLeadOutputModel>(result);
+                Assert.AreEqual(expected, actual);
+            }
+            else
+            {
+                Assert.AreEqual(expected, result);  //проверка статус кода, что не успех             
+            }
+        }
     }
 }

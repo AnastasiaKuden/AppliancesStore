@@ -4,3 +4,9 @@ D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\ob
 D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\obj\Debug\netcoreapp3.1\AppliancesStore.Data.AssemblyInfoInputs.cache
 D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\obj\Debug\netcoreapp3.1\AppliancesStore.Data.AssemblyInfo.cs
 D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\bin\Debug\netcoreapp3.1\AppliancesStore.Core.dll
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\bin\Debug\netcoreapp3.1\AppliancesStore.Data.pdb
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\bin\Debug\netcoreapp3.1\AppliancesStore.Core.pdb
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\obj\Debug\netcoreapp3.1\AppliancesStore.Data.csproj.CoreCompileInputs.cache
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\obj\Debug\netcoreapp3.1\AppliancesStore.Data.csproj.CopyComplete
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\obj\Debug\netcoreapp3.1\AppliancesStore.Data.dll
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\obj\Debug\netcoreapp3.1\AppliancesStore.Data.pdb
