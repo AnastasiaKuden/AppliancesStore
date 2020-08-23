@@ -91,29 +91,26 @@ namespace AppliancesStore.Test.Mocks.OutputDataMocks
                     UserAge = "Adult",
                     NumberOfPulsations = 7000000
                 },
-                5 => new MulticookerOutputModel()
+                5 => new HobsOutputModel()
                 {
-                    Id = 10010,
-                    Category = "Multicooker",
-                    Model = "Tefal-CE1900",
-                    Company = "Tefal",
-                    Country = "Italy",
-                    ProductionYear = 2019,
-                    Price = 25000,
-                    Color = "Black",
+                    Id = 10013,
+                    Category = "Hobs",
+                    Model = "Vestel HV12",
+                    Company = "Vestel",
+                    Country = "Denmark",
+                    ProductionYear = 2020,
+                    Price = 150000,
+                    Color = "Grey",
                     IsDeleted = false,
-                    Width = 27,
-                    Height = 28,
-                    Depth = 26,
-                    Weight = 4,
-                    Power = 1500,
-                    NumberOfPrograms = 5,
-                    Volume = 12.3M,
-                    DelayedStart = true,
-                    ControlType = "Electronic",
-                    BowlCover = "Coal",
-                    KeepingWarm = true
-
+                    Width = 103,
+                    Height = 5,
+                    Depth = 38,
+                    Weight = 10,
+                    Power = 850,
+                    Switches = "Rotary mechanical",
+                    TypeOfInstallation = "Fireplace",
+                    NumberOfBurners = 4,
+                    PanelMaterial = "Strained Glass"
                 },
                 6 => new LibraOutputModel()
                 {

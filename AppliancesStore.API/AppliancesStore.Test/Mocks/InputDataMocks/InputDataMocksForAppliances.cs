@@ -78,14 +78,23 @@ namespace AppliancesStore.Test.Mocks.InputDataMocks
                 },
                 5 => new AppliancesInputModel()
                 {
-                    Model = "SUPRA 4730M",
-                    Company = "SUPRA",
-                    Country = "Germany",
-                    ProductionYear = 2018,
-                    Price = null,
-                    Color = "White"
+                    Model = "Vestel HV12",
+                    Company = "Vestel",
+                    Country = "Denmark",
+                    ProductionYear = 2020,
+                    Price = 150000,
+                    Color = "Grey",
+                    Width = 103,
+                    Height = 5,
+                    Depth = 38,
+                    Weight = 10,
+                    Power = 850,
+                    Switches = "Rotary mechanical",
+                    TypeOfInstallation = "Fireplace",
+                    NumberOfBurners = 4,
+                    PanelMaterial = "Strained Glass"
                 },
-                6 => new AppliancesInputModel()
+                6 => new AppliancesInputModel()  //на этом остановилась
                 {
                     Model = "",
                     Company = "Xiaomi",
