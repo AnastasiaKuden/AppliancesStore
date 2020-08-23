@@ -47,6 +47,10 @@ namespace AppliancesStore.API.Controllers
             return MakeResponse(dataWrapper, _mapper.Map<List<OrderOutputModel>>);
         }
 
+        /// <summary>
+        /// Get all completed orders
+        /// </summary>
+        /// <returns></returns>
         [ProducesResponseType(StatusCodes.Status200OK)]
         [HttpGet("completed")]
         public ActionResult<List<OrderOutputModel>> GetAllCompletedOrders()

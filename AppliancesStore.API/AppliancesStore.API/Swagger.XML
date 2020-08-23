@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AppliancesStore.API</name>
+    </assembly>
+    <members>
+        <member name="M:AppliancesStore.API.Controllers.OrderController.GetAllNewOrders">
+            <summary>
+            Gets all new orders, which are not processed
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AppliancesStore.API.Controllers.OrderController.GetAllProcessedOrders">
+            <summary>
+            Gets all processed and not issued orders
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AppliancesStore.API.Controllers.OrderController.GetAllCompletedOrders">
+            <summary>
+            Get all completed orders
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AppliancesStore.API.Controllers.OrderController.GetOrderById(System.Int32)">
+            <summary>
+            Gets order by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AppliancesStore.API.Controllers.OrderController.CreateOrder(AppliancesStore.API.Models.Input.OrderInputModel)">
+            <summary>
+            Creates new order
+            </summary>
+            <param name="inputModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AppliancesStore.API.Controllers.OrderController.MarkTheOrderAsProcessedById(System.Int64)">
+            <summary>
+            Marks the order as processed by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AppliancesStore.API.Controllers.OrderController.MarkTheOrderAsIssuedById(System.Int64)">
+            <summary>
+            Marks the order as issued by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AppliancesStore.Controllers.AppliancesController.GetAllProducts">
+            <summary>
+            Gets all appliances with short info
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AppliancesStore.Controllers.AppliancesController.GetAllDeletedProducts">
+            <summary>
+            Gets all deleted appliances with short info
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AppliancesStore.Controllers.AppliancesController.GetProductsByCategory(System.Byte)">
+            <summary>
+            Gets household appliances of a specific category
+            </summary>
+            <param name="categoryId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AppliancesStore.Controllers.AppliancesController.GetProductById(System.Int32)">
+            <summary>
+            Gets product by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AppliancesStore.Controllers.AppliancesController.AddNewProduct(AppliancesStore.API.Models.Input.AppliancesInputModel)">
+            <summary>
+            Adds new product 
+            </summary>
+            <param name="inputModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AppliancesStore.Controllers.AppliancesController.UpdatePriceByProductId(System.Int32,System.Nullable{System.Decimal})">
+            <summary>
+            Updates product's price by productId
+            </summary>
+            <param name="productId"></param>
+            <param name="price"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AppliancesStore.Controllers.AppliancesController.DeleteOrRestoreProductById(System.Int32)">
+            <summary>
+            Deletes product or removes it from deleted by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

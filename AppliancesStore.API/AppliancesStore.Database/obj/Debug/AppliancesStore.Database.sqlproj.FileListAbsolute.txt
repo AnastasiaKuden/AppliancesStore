@@ -1,0 +1,6 @@
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Database\obj\Debug\AppliancesStore.Database.sqlprojAssemblyReference.cache
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Database\obj\Debug\AppliancesStore.Database.dll
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Database\obj\Debug\AppliancesStore.Database.pdb
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Database\bin\Debug\AppliancesStore.Database.dacpac
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Database\bin\Debug\AppliancesStore.Database.dll
+D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Database\bin\Debug\AppliancesStore.Database.pdb
