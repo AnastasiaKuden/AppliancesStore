@@ -1,15 +1,19 @@
 ﻿using AppliancesStore.API;
+using AppliancesStore.API.Models.Output.CategorySpecificOutputModels.SmallAppliancesModels;
 using AppliancesStore.Core;
+using AppliancesStore.Test.Mocks.InputDataMocks;
 using AppliancesStore.Test.Mocks.OutputDataMocks;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
 using NUnit.Framework;
 using System.Data;
 using System.Data.SqlClient;
 using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace AppliancesStore.Test
@@ -27,7 +31,7 @@ namespace AppliancesStore.Test
         {
             _webHostBuilder =
                   new WebHostBuilder()
-                        .UseEnvironment("Development")
+                        .UseEnvironment("Testing")
                         .ConfigureServices(services => services.AddAutofac())
                         .UseStartup<Startup>();
 
@@ -45,24 +49,30 @@ namespace AppliancesStore.Test
         [TestCase(3)]
         [TestCase(4)]
         [TestCase(5)]
-        public async Task AddNewProductTest()
+        [TestCase(6)]
+        [TestCase(7)]
+        [TestCase(8)]
+        [TestCase(9)]
+        [TestCase(10)]
+        public async Task AddNewProductTest(int num)
         {
             var outputData = new OutputDataMocksForAppliances();
-            var expected = outputData.GetAccountWithLeadOutputModelMockById(num);
-            var inputData = new InputDataMocksForAccounts();
-            var inputmodel = inputData.GetAccountInputModelMock(num);
+            var expected = outputData.GetAppliancesOutputModelMock(num);
+            var inputData = new InputDataMocksForAppliances();
+            var inputmodel = inputData.GetAppliancesInputModelMock(num);
             var jsonContent = new StringContent(JsonConvert.SerializeObject(inputmodel), Encoding.UTF8, "application/json");
-            var response = await _client.PostAsync(_crmUrl + EndpointUrl.accountUrl, jsonContent);
+            var response = await _client.PostAsync(_appliancesStoreUrl + EndpointUrl.appliancesUrl, jsonContent);
             var result = await response.Content.ReadAsStringAsync();
-            //задать переменную, при которой будет провальный результат = 23
-            if (num < 23)
+            var failResult = 5;            
+            if (num == failResult)
             {
-                var actual = JsonConvert.DeserializeObject<AccountWithLeadOutputModel>(result);
-                Assert.AreEqual(expected, actual);
+                Assert.AreEqual(expected, result);  //проверка статус кода, что не успех   
+                
             }
             else
-            {
-                Assert.AreEqual(expected, result);  //проверка статус кода, что не успех             
+            {                 
+                var actual = JsonConvert.DeserializeObject<LibraOutputModel>(result);
+                Assert.AreEqual(expected, actual);
             }
         }
     }
