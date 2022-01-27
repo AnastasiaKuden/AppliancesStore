@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppliancesStore.Core", "App
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppliancesStore.Data", "AppliancesStore.Data\AppliancesStore.Data.csproj", "{68D2F96C-5D5F-4C28-82DB-69E3233A1330}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AppliancesStore.Database", "AppliancesStore.Database\AppliancesStore.Database.sqlproj", "{CBA23E3C-6C89-4EA2-A2BD-F45A6E902048}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppliancesStore.Test", "AppliancesStore.Test\AppliancesStore.Test.csproj", "{67D8E4A1-31BB-4B48-96DF-B3B924300122}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{B1C3B529-EEA6-400A-BF06-01A363D4E117}"
@@ -33,12 +31,6 @@ Global
 		{68D2F96C-5D5F-4C28-82DB-69E3233A1330}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68D2F96C-5D5F-4C28-82DB-69E3233A1330}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68D2F96C-5D5F-4C28-82DB-69E3233A1330}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CBA23E3C-6C89-4EA2-A2BD-F45A6E902048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CBA23E3C-6C89-4EA2-A2BD-F45A6E902048}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CBA23E3C-6C89-4EA2-A2BD-F45A6E902048}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{CBA23E3C-6C89-4EA2-A2BD-F45A6E902048}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CBA23E3C-6C89-4EA2-A2BD-F45A6E902048}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CBA23E3C-6C89-4EA2-A2BD-F45A6E902048}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{67D8E4A1-31BB-4B48-96DF-B3B924300122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{67D8E4A1-31BB-4B48-96DF-B3B924300122}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67D8E4A1-31BB-4B48-96DF-B3B924300122}.Release|Any CPU.ActiveCfg = Release|Any CPU
