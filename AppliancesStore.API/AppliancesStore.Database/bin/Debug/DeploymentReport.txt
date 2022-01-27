@@ -1,0 +1,46 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Appliances] (Table)
+       [dbo].[City] (Table)
+       [dbo].[DBVersion] (Table)
+       [dbo].[Order] (Table)
+       [dbo].[Order_Products] (Table)
+       [dbo].[Store] (Table)
+       [dbo].[Store_QuantityOfProducts] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Appliances] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Order] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Order] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Order] (Default Constraint)
+       Foreign Key: unnamed constraint on [dbo].[Order_Products] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Order_Products] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Store] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Store_QuantityOfProducts] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Store_QuantityOfProducts] (Foreign Key)
+       [dbo].[AddProductModels] (Procedure)
+       [dbo].[Appliances_DeleteOrRestoreById] (Procedure)
+       [dbo].[Appliances_FindByModelName] (Procedure)
+       [dbo].[Appliances_GetAll] (Procedure)
+       [dbo].[Appliances_GetAllRemote] (Procedure)
+       [dbo].[Appliances_GetById] (Procedure)
+       [dbo].[Appliances_UpdatePrice] (Procedure)
+       [dbo].[Order_Create] (Procedure)
+       [dbo].[Order_GetAllNotIssued] (Procedure)
+       [dbo].[Order_GetAllNotProcessed] (Procedure)
+       [dbo].[Order_GetCompleted] (Procedure)
+       [dbo].[Order_MarkAsIssued] (Procedure)
+       [dbo].[Order_MarkAsProcessed] (Procedure)
+       [dbo].[Order_PutProductIn] (Procedure)
+       [dbo].[OrderWithProducts_GetById] (Procedure)
+       [dbo].[Appliances_Add] (Procedure)
+
+** Supporting actions

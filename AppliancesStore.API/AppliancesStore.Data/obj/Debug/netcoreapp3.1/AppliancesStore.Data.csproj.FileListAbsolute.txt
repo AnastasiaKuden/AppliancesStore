@@ -10,3 +10,16 @@ D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\ob
 D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\obj\Debug\netcoreapp3.1\AppliancesStore.Data.csproj.CopyComplete
 D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\obj\Debug\netcoreapp3.1\AppliancesStore.Data.dll
 D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\obj\Debug\netcoreapp3.1\AppliancesStore.Data.pdb
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\bin\Debug\netcoreapp3.1\AppliancesStore.Data.deps.json
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\bin\Debug\netcoreapp3.1\AppliancesStore.Data.dll
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\bin\Debug\netcoreapp3.1\AppliancesStore.Data.pdb
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\bin\Debug\netcoreapp3.1\AppliancesStore.Core.dll
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\bin\Debug\netcoreapp3.1\AppliancesStore.Core.pdb
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\obj\Debug\netcoreapp3.1\AppliancesStore.Data.csproj.AssemblyReference.cache
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\obj\Debug\netcoreapp3.1\AppliancesStore.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\obj\Debug\netcoreapp3.1\AppliancesStore.Data.AssemblyInfoInputs.cache
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\obj\Debug\netcoreapp3.1\AppliancesStore.Data.AssemblyInfo.cs
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\obj\Debug\netcoreapp3.1\AppliancesStore.Data.csproj.CoreCompileInputs.cache
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\obj\Debug\netcoreapp3.1\AppliancesStore.Data.csproj.CopyComplete
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\obj\Debug\netcoreapp3.1\AppliancesStore.Data.dll
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Data\obj\Debug\netcoreapp3.1\AppliancesStore.Data.pdb

@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+
+  appliancesstore.api:
+    build:
+      context: .
+      dockerfile: AppliancesStore.API/Dockerfile
+    image: appliancesstore.api
+    container_name: appliancesstore-api
+    environment:
+      - urls=http://0.0.0.0:5000
+      - DBConnectionString="Data Source=host.docker.internal;Initial Catalog=AppliancesStore.Database;Integrated Security=False;User ID=sa;Password=YourStrongPassword1!;Connection Timeout=20"
+    ports:
+      - 5000:5000

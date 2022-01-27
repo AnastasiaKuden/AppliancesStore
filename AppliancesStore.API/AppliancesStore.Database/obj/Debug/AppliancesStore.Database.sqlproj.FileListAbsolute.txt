@@ -1,0 +1,5 @@
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Database\obj\Debug\AppliancesStore.Database.dll
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Database\obj\Debug\AppliancesStore.Database.pdb
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Database\bin\Debug\AppliancesStore.Database.dacpac
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Database\bin\Debug\AppliancesStore.Database.dll
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Database\bin\Debug\AppliancesStore.Database.pdb

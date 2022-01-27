@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppliancesStore.API", "AppliancesStore.API\AppliancesStore.API.csproj", "{CE34282F-D144-4A25-9AAD-1431B061C737}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppliancesStore.API", "AppliancesStore.API\AppliancesStore.API.csproj", "{CE34282F-D144-4A25-9AAD-1431B061C737}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppliancesStore.Core", "AppliancesStore.Core\AppliancesStore.Core.csproj", "{CF2D0AE6-C876-4FC7-BE78-1C489F45C8B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppliancesStore.Core", "AppliancesStore.Core\AppliancesStore.Core.csproj", "{CF2D0AE6-C876-4FC7-BE78-1C489F45C8B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppliancesStore.Data", "AppliancesStore.Data\AppliancesStore.Data.csproj", "{68D2F96C-5D5F-4C28-82DB-69E3233A1330}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppliancesStore.Data", "AppliancesStore.Data\AppliancesStore.Data.csproj", "{68D2F96C-5D5F-4C28-82DB-69E3233A1330}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AppliancesStore.Database", "AppliancesStore.Database\AppliancesStore.Database.sqlproj", "{CBA23E3C-6C89-4EA2-A2BD-F45A6E902048}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppliancesStore.Test", "AppliancesStore.Test\AppliancesStore.Test.csproj", "{67D8E4A1-31BB-4B48-96DF-B3B924300122}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppliancesStore.Test", "AppliancesStore.Test\AppliancesStore.Test.csproj", "{67D8E4A1-31BB-4B48-96DF-B3B924300122}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{B1C3B529-EEA6-400A-BF06-01A363D4E117}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{67D8E4A1-31BB-4B48-96DF-B3B924300122}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67D8E4A1-31BB-4B48-96DF-B3B924300122}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67D8E4A1-31BB-4B48-96DF-B3B924300122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C3B529-EEA6-400A-BF06-01A363D4E117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C3B529-EEA6-400A-BF06-01A363D4E117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C3B529-EEA6-400A-BF06-01A363D4E117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C3B529-EEA6-400A-BF06-01A363D4E117}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

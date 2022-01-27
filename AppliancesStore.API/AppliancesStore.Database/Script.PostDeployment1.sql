@@ -9,6 +9,6 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
- :r .\dbo\Migration\v1.1\CreateTablesByCategory.sql
+ :r .\dbo\Migration\v1.1\CreateNewTables.sql
  :r .\dbo\Migration\v1.1\UpdateAppliancesTable.sql
  :r .\dbo\Migration\v1.1\AddOrUpdateStorageProcedures.sql

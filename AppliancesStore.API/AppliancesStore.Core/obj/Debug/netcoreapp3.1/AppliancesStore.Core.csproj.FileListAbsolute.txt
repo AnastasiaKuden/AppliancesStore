@@ -7,3 +7,12 @@ D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\ob
 D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\obj\Debug\netcoreapp3.1\AppliancesStore.Core.csproj.CoreCompileInputs.cache
 D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\obj\Debug\netcoreapp3.1\AppliancesStore.Core.dll
 D:\C# проекты\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\obj\Debug\netcoreapp3.1\AppliancesStore.Core.pdb
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\bin\Debug\netcoreapp3.1\AppliancesStore.Core.deps.json
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\bin\Debug\netcoreapp3.1\AppliancesStore.Core.dll
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\bin\Debug\netcoreapp3.1\AppliancesStore.Core.pdb
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\obj\Debug\netcoreapp3.1\AppliancesStore.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\obj\Debug\netcoreapp3.1\AppliancesStore.Core.AssemblyInfoInputs.cache
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\obj\Debug\netcoreapp3.1\AppliancesStore.Core.AssemblyInfo.cs
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\obj\Debug\netcoreapp3.1\AppliancesStore.Core.csproj.CoreCompileInputs.cache
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\obj\Debug\netcoreapp3.1\AppliancesStore.Core.dll
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.Core\obj\Debug\netcoreapp3.1\AppliancesStore.Core.pdb
