@@ -22,3 +22,4 @@ D:\Projects\Learning\AppliancesStore\AppliancesStore.API\bin\Debug\AppliancesSto
 D:\Projects\Learning\AppliancesStore\AppliancesStore.API\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 D:\Projects\Learning\AppliancesStore\AppliancesStore.API\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 D:\Projects\Learning\AppliancesStore\AppliancesStore.API\obj\Debug\docker-compose.dcproj.CopyComplete
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\bin\Debug\dockerfile

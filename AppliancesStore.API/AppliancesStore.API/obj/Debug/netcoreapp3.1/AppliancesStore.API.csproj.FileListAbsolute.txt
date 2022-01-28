@@ -86,3 +86,4 @@ D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.API\obj
 D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.API\obj\Debug\netcoreapp3.1\AppliancesStore.API.dll
 D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.API\obj\Debug\netcoreapp3.1\AppliancesStore.API.pdb
 D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.API\obj\Debug\netcoreapp3.1\AppliancesStore.API.genruntimeconfig.cache
+D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.API\bin\Debug\netcoreapp3.1\dockerfile

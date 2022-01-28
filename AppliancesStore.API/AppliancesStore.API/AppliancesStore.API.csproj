@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Dockerfile">
+    <Content Include="dockerfile">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

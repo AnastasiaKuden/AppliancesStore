@@ -6,16 +6,16 @@ services:
       labels:
         com.microsoft.created-by: visual-studio
         com.microsoft.visual-studio.project-name: AppliancesStore.API
-      target: base
-    container_name: AppliancesStore.API
+    container_name: appliancesstore-api
     entrypoint: tail -f /dev/null
     environment:
-      ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
-      ASPNETCORE_URLS: https://+:443;http://+:80
+      DBConnectionString: '"Data Source=host.docker.internal;Initial Catalog=AppliancesStore.Database;Integrated
+        Security=False;User ID=sa;Password=YourStrongPassword1!;Connection Timeout=20"'
       DOTNET_USE_POLLING_FILE_WATCHER: '1'
       NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages;/root/.nuget/fallbackpackages2
-    image: appliancesstoreapi:dev
+      urls: http://0.0.0.0:5000
+    image: appliancesstore.api:dev
     labels:
       com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
         --additionalProbingPath /root/.nuget/fallbackpackages --additionalProbingPath
@@ -25,8 +25,8 @@ services:
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
     ports:
-    - target: 80
-    - target: 443
+    - published: 5000
+      target: 5000
     tty: true
     volumes:
     - D:\Projects\Learning\AppliancesStore\AppliancesStore.API\AppliancesStore.API:/app:rw
